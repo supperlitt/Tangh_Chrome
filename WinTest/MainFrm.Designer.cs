@@ -58,6 +58,7 @@
             // txtResult
             // 
             this.txtResult.Location = new System.Drawing.Point(667, 156);
+            this.txtResult.MaxLength = 327670;
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
             this.txtResult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -107,7 +108,7 @@
             this.txtUrl.Name = "txtUrl";
             this.txtUrl.Size = new System.Drawing.Size(496, 21);
             this.txtUrl.TabIndex = 5;
-            this.txtUrl.Text = "https://peter.sh/experiments/chromium-command-line-switches/";
+            this.txtUrl.Text = "https://www.baidu.com/";
             // 
             // MainFrm
             // 

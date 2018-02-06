@@ -28,7 +28,7 @@ namespace WinTest
         private void MainFrm_Load(object sender, EventArgs e)
         {
             #region chrome1
-            this.chrome = new ChromeHelper("https://peter.sh/experiments/chromium-command-line-switches/");
+            this.chrome = new ChromeHelper("https://www.baidu.com/");
             this.chrome.NotifyResult += chrome_NotifyResult;
             chrome.InitHelper();
             List<string> list = new List<string>();
@@ -69,7 +69,7 @@ namespace WinTest
         {
             this.Invoke(new Action<TextBox>(p =>
             {
-                if (p.TextLength > 30000)
+                if (p.TextLength > 300000)
                 {
                     p.Clear();
                 }
